@@ -62,15 +62,21 @@ export default function Navbar()  {
              
             <Divider />
             <List style={styles.linkContainer}>
-                <ListItem button key={1}>
-                  <NavLink to="/" style={styles.navlink}>My Work</NavLink>
-                </ListItem>
-                <ListItem button key={2}>
-                  <NavLink to="/about" style={styles.navlink}>About Me</NavLink>
-                </ListItem>
-                <ListItem button key={3}>
-                  <NavLink to="/hire-me" style={styles.navlink}>Get In Touch</NavLink>
-                </ListItem>
+                <NavLink to="/" style={styles.navlink}>
+                  <ListItem button key={1}>
+                    My Work
+                  </ListItem>
+                </NavLink>
+                <NavLink to="/about" style={styles.navlink}>
+                  <ListItem button key={2}>
+                    About Me
+                  </ListItem>
+                </NavLink>
+                <NavLink to="/hire-me" style={styles.navlink}>
+                  <ListItem button key={3}>
+                    Get In Touch
+                  </ListItem>
+                </NavLink>
             </List>
           </Drawer>
           </div>
@@ -89,12 +95,14 @@ const styles = {
     },
     //default flex dir is col
     linkContainer: {
-      flex:1, 
+      flex:1,
+      padding:0
     },
     navlink : {
         flex:1,
         color: 'black',
-        textDecoration: 'none'
+        textDecoration: 'none',
+        padding:0
     },
     name :{
         fontSize: 30,

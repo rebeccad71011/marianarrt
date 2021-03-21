@@ -1,5 +1,6 @@
-import React, {Component, Fragment} from 'react'
+import React, {Component, Fragment, useEffect} from 'react'
 import {BrowserRouter as Router, Route } from 'react-router-dom'
+import Tabletop from 'tabletop';
 
 import Navbar from './components/Navbar'
 import Home from './components/Home'
@@ -64,9 +65,17 @@ const useStyles = makeStyles((theme) => ({
 //     }
 // }
 
-export default function PermanentDrawerLeft() {
+export default function App() {
   const classes = useStyles();
-
+  useEffect(() => {
+    Tabletop.init({
+      key: '1LJr7oVnF42z719FE0o7Myu9bkPWNVUa2rQHlvco8iyk',
+      callback: googleData => {
+        console.log('google sheet data --->', googleData)
+      },
+      simpleSheet: true
+    })
+  }, []); 
   return (
     <Router>
     <div className={classes.root}>
