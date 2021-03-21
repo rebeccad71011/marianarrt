@@ -55,7 +55,6 @@ export default function Navbar()  {
                     Marianarrt
                 </div>
                 <div className="main-description" style={styles.description}>
-                    One Of The Most Talented Person I know
                     (What to write Here??)
                 </div>
             </div>
