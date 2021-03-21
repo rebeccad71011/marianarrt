@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/marianarrat/static/css/main.9f5492c6.chunk.css",
+    "main.js": "/marianarrat/static/js/main.fbcacad5.chunk.js",
+    "main.js.map": "/marianarrat/static/js/main.fbcacad5.chunk.js.map",
+    "runtime-main.js": "/marianarrat/static/js/runtime-main.b7c4f6e7.js",
+    "runtime-main.js.map": "/marianarrat/static/js/runtime-main.b7c4f6e7.js.map",
+    "static/js/2.3cb5d4de.chunk.js": "/marianarrat/static/js/2.3cb5d4de.chunk.js",
+    "static/js/2.3cb5d4de.chunk.js.map": "/marianarrat/static/js/2.3cb5d4de.chunk.js.map",
+    "static/js/3.724199cd.chunk.js": "/marianarrat/static/js/3.724199cd.chunk.js",
+    "static/js/3.724199cd.chunk.js.map": "/marianarrat/static/js/3.724199cd.chunk.js.map",
+    "index.html": "/marianarrat/index.html",
+    "static/css/main.9f5492c6.chunk.css.map": "/marianarrat/static/css/main.9f5492c6.chunk.css.map",
+    "static/js/2.3cb5d4de.chunk.js.LICENSE.txt": "/marianarrat/static/js/2.3cb5d4de.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b7c4f6e7.js",
+    "static/js/2.3cb5d4de.chunk.js",
+    "static/css/main.9f5492c6.chunk.css",
+    "static/js/main.fbcacad5.chunk.js"
+  ]
+}
