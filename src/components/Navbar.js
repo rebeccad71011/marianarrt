@@ -56,11 +56,12 @@ export default function Navbar()  {
                 </div>
                 <div className="main-description" style={styles.description}>
                     One Of The Most Talented Person I know
+                    (What to write Here??)
                 </div>
             </div>
              
             <Divider />
-            <List>
+            <List style={styles.linkContainer}>
                 <ListItem button key={1}>
                   <NavLink to="/" style={styles.navlink}>My Work</NavLink>
                 </ListItem>
@@ -86,8 +87,12 @@ const styles = {
       width: 80,
       borderRadius: 40,
     },
+    //default flex dir is col
+    linkContainer: {
+      flex:1, 
+    },
     navlink : {
-        marginRight: 10,
+        flex:1,
         color: 'black',
         textDecoration: 'none'
     },
@@ -98,5 +103,5 @@ const styles = {
     description: {
         fontSize: 13,
         margin:5
-    }
+    },
 };

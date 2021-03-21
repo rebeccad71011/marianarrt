@@ -72,9 +72,9 @@ export default function PermanentDrawerLeft() {
     <div className={classes.root}>
       <CssBaseline />
       <Navbar/>
-      <Route exact path='/' component={ Home }>Home</Route>
-      <Route path='/about' component={ About }>About</Route>
-      <Route path='/hire-me' component={ Hire }>Hire Me</Route>
+      <Route exact path='/' component={ Home } />
+      <Route path='/about' component={ About } />
+      <Route path='/hire-me' component={ Hire } />
     </div>
     </Router>
   );
