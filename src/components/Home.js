@@ -11,19 +11,19 @@ import Tabletop from 'tabletop';
 
 const useStyles = makeStyles({
   root: {
-    display:'flex',
-    maxWidth: 800,
-    justifyContent:'center',
-    alignItems:'center',
+    flex:1,
+    maxWidth: '60vw',
     color:"red",
-    margin:"3%"
+    margin:"3%",
+    padding:"4%"
   },
   media: {
-    alignSelf:'center',
-    width:'100vw',
-    height: '70vh',
+    maxHeight: '50vh',
+    maxWidth: '70vw',
   },
 });
+
+const FILE_ID_REGEX = /[-\w]{25,}/
 
 export default function MediaCard() {
   const classes = useStyles();
@@ -42,14 +42,16 @@ export default function MediaCard() {
   return (
     <div style={styles.container}>
         {Paintings.map(Painting => {
+            const url = "https://drive.google.com/uc?export=view&id="+FILE_ID_REGEX.exec(Painting.img_url)
               return (
                 <Card className={classes.root}>
                     <CardActionArea>
                         <CardMedia
+                            component="img"
                             className={classes.media}
-                            src={Painting.img_url}
+                            image={url}
                             title="Sweet Waters"
-                            />
+                        />
                             <CardContent>
                             <Typography gutterBottom variant="h5" component="h2">
                                 {Painting.name}
@@ -58,7 +60,7 @@ export default function MediaCard() {
                                 {Painting.details}
                             </Typography>
                             <Typography variant="body2" color="textSecondary" component="p">
-                                {Painting.og_artist}
+                                {Painting.dimensions}
                             </Typography>
                         </CardContent>
                     </CardActionArea>
