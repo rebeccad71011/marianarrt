@@ -42,28 +42,6 @@ const useStyles = makeStyles((theme) => ({
 
 }));
 
-
-// export default class App extends Component {
-//     render() {
-//         return (
-//             <Router>
-//                 <Fragment>
-//                     <Navbar />
-//                     <Route exact path='/' component={ Home }>Home</Route>
-//                     <Route path='/about' component={ About }>About</Route>
-//                     <Route path='/hire-me' component={ Hire }>Hire Me</Route>
-//                     <Route exact path='/portfolio' render={ routerProps => {
-//                         return  <Portfolio {...routerProps} projects={projects} /> }
-//                     }>Portfolio</Route>
-//                     <Route path={`/portfolio/:id`} render={ routerProps=> {
-//                         return <Project {...routerProps} projects={projects} /> }
-//                     } />
-//                 </Fragment>
-//             </Router>
-//         )
-//     }
-// }
-
 export default function App() {
   const classes = useStyles();
 

@@ -32,7 +32,6 @@ export default function MediaCard() {
     Tabletop.init({
       key: '1LJr7oVnF42z719FE0o7Myu9bkPWNVUa2rQHlvco8iyk',
       callback: googleData => {
-        // console.log('google sheet data --->', googleData);
         setPaintaings(googleData);
       },
       simpleSheet: true
@@ -53,7 +52,7 @@ export default function MediaCard() {
                             title="Sweet Waters"
                         />
                             <CardContent>
-                            <Typography gutterBottom variant="h5" component="h2">
+                            <Typography gutterBottom variant="h6" component="h2">
                                 {Painting.name}
                             </Typography>
                             <Typography variant="body2" color="textSecondary" component="p">
@@ -78,8 +77,6 @@ const styles = {
         flexDirection:'column',
         justifyContent:'center',
         alignItems:'center',
-        color:"red",
         padding:"3%",
-
     }
 }
