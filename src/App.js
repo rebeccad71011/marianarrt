@@ -4,10 +4,8 @@ import {BrowserRouter as Router, Route } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import Home from './components/Home'
 import About from './components/About'
-import Portfolio from './components/Portfolio'
 import Hire from './components/Hire'
-import Project from './components/Project'
-import projects from './db.json'
+
 
 import { makeStyles } from '@material-ui/core/styles';
 import Drawer from '@material-ui/core/Drawer';
