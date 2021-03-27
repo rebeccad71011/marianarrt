@@ -9,13 +9,16 @@ import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import Tabletop from 'tabletop';
 
+import '../assests/css/style.css'
+import '../assests/css/font.css'
+
 const useStyles = makeStyles({
   root: {
     flex:1,
     maxWidth: '60vw',
-    color:"red",
-    margin:"3%",
-    padding:"4%"
+    margin:"4%",
+    padding:"1%",
+    // mintWidth: '50vw',
   },
   media: {
     maxHeight: '50vh',
@@ -39,12 +42,12 @@ export default function MediaCard() {
   }, []); 
 
   return (
-    <div style={styles.container}>
+    <div style={styles.container} className="main-background">
         {Paintings.map(Painting => {
             const url = "https://drive.google.com/uc?export=view&id="+FILE_ID_REGEX.exec(Painting.img_url)
               return (
-                <Card className={classes.root}>
-                    <CardActionArea>
+                <Card className={classes.root} raised={true}>
+                   
                         <CardMedia
                             component="img"
                             className={classes.media}
@@ -52,17 +55,16 @@ export default function MediaCard() {
                             title="Sweet Waters"
                         />
                             <CardContent>
-                            <Typography gutterBottom variant="h6" component="h2">
+                            <Typography style={styles.paintingName}>
                                 {Painting.name}
                             </Typography>
-                            <Typography variant="body2" color="textSecondary" component="p">
+                            <Typography variant="body2" color="textSecondary" component="p" style={styles.paintingDimensions}>
                                 {Painting.details}
                             </Typography>
-                            <Typography variant="body2" color="textSecondary" component="p">
+                            <Typography variant="body2" color="textSecondary" component="p" style={styles.paintingDimensions}>
                                 {Painting.dimensions}
                             </Typography>
                         </CardContent>
-                    </CardActionArea>
                 </Card>
               )
         })}
@@ -77,6 +79,12 @@ const styles = {
         flexDirection:'column',
         justifyContent:'center',
         alignItems:'center',
-        padding:"3%",
+        padding:"1%",
+    },
+    paintingName: {
+      fontSize:'2vh'
+    },
+    paintingDimensions: {
+      fontSize:'1.4vh'
     }
 }

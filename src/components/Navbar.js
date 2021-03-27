@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, {useState,} from "react";
 import PropTypes from "prop-types";
 import AppBar from "@material-ui/core/AppBar";
 import CssBaseline from "@material-ui/core/CssBaseline";
@@ -23,8 +23,9 @@ import becca from '../images/beccas-profile.jpg'
 import '../assests/css/font.css'
 
 
-
-const drawerWidth = 220;
+const { innerWidth: width, innerHeight: height } = window;
+console.log(window);
+const drawerWidth = 200;
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -76,7 +77,7 @@ export default function Navbar( props )  {
     };
 
     const drawer = (
-      <div>
+      <div style={styles.container}>
       <div style={styles.profileImgContainer}>
                 {/* <img alt="Remy Sharp" style={styles.profileImg} src={becca} className={classes.large}/> */}
                 <div className="comfortaa-name" style={styles.name}>
@@ -88,7 +89,7 @@ export default function Navbar( props )  {
             </div>
              
             <Divider />
-            <List style={styles.linkContainer}>
+            <List style={styles.linkContainer} className="main-description">
                 <NavLink to="/" style={styles.navlink}>
                   <ListItem button key={1}>
                     My Work
@@ -160,31 +161,34 @@ export default function Navbar( props )  {
 }
 
 const styles = {
+    container: {
+      backgroundColor:'#FFFF',
+      flex:1
+    },
     profileImgContainer: {
-      margin: 8,
+      margin: "8%",
     },
-    profileImg: {
-      height: 80,
-      width: 80,
-      borderRadius: 40,
-    },
+    // profileImg: {
+    //   height: 80,
+    //   width: 80,
+    //   borderRadius: 40,
+    // },
     //default flex dir is col
     linkContainer: {
       flex:1,
-      padding:0
+      padding:0,
     },
     navlink : {
         flex:1,
         color: 'black',
         textDecoration: 'none',
-        padding:0
+        padding:0,
+        fontSize:13
     },
     name :{
-        fontSize: 30,
-        margin:5
+        fontSize: 25,
     },
     description: {
-        fontSize: 13,
-        margin:5
+        fontSize: 15,
     },
 };

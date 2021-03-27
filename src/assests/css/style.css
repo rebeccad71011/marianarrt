@@ -11,3 +11,7 @@
       flex-direction: column;
     }
   }
+
+  .main-background {
+    background-color: #F7FFF7;
+  }

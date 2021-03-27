@@ -17,9 +17,9 @@ import '../assests/css/style.css'
 export default function MediaCard() {
 
   return (
-    <div className="flex-container">
+    <div className="flex-container main-background">
         <div style={styles.pictureBox}>
-            <img style={styles.picture} src={becca} alt="This is Becca" />;
+            <img style={styles.picture} src={becca} alt="This is Becca" />
         </div>
         <div style={styles.descriptionBox}>
             {/* <div className="comfortaa-name" style={styles.name}>
@@ -38,7 +38,7 @@ export default function MediaCard() {
             </div>
         </div>
     </div>
-  );
+  )
 }
 
 const styles = {
@@ -46,8 +46,7 @@ const styles = {
         flex:1,
         display:'flex',
         flexDirection:'row',
-        justifyContent:'center',
-        alignItems:'center',
+    
         // backgroundColor:'red'
     },
     pictureBox:{
@@ -72,8 +71,7 @@ const styles = {
         justifyContent:'center',
         alignItems:'center',
         // backgroundColor:'blue',
-        margin:"10%",
-        
+        margin:"2%",    
     },
     name:{
         fontSize:'5vh'
