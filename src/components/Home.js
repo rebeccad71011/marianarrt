@@ -21,7 +21,6 @@ const useStyles = makeStyles({
     // mintWidth: '50vw',
   },
   media: {
-    maxHeight: '80vh',
     maxWidth: '70vw',
   },
 });
