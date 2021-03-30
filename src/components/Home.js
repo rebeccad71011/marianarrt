@@ -15,13 +15,13 @@ import '../assests/css/font.css'
 const useStyles = makeStyles({
   root: {
     flex:1,
-    maxWidth: '60vw',
-    margin:"4%",
+    maxWidth: '70vw',
+    margin:"3%",
     padding:"1%",
     // mintWidth: '50vw',
   },
   media: {
-    maxHeight: '50vh',
+    maxHeight: '80vh',
     maxWidth: '70vw',
   },
 });
@@ -58,10 +58,10 @@ export default function MediaCard() {
                             <Typography style={styles.paintingName}>
                                 {Painting.name}
                             </Typography>
-                            <Typography variant="body2" color="textSecondary" component="p" style={styles.paintingDimensions}>
+                            <Typography variant="body2" color="textSecondary"  style={styles.paintingDimensions}>
                                 {Painting.details}
                             </Typography>
-                            <Typography variant="body2" color="textSecondary" component="p" style={styles.paintingDimensions}>
+                            <Typography variant="body4" color="textSecondary"  style={styles.paintingDimensions}>
                                 {Painting.dimensions}
                             </Typography>
                         </CardContent>
