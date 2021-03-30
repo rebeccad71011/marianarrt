@@ -4,8 +4,7 @@ export default class Hire extends Component {
     render () {
         return (
             <Fragment>
-                <h1>Hire Me</h1>
-                <h1>I'm great with H1 tags</h1>
+                <h1> Under Developement</h1>
             </Fragment>
         )
     }

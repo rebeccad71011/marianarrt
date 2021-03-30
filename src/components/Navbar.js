@@ -90,7 +90,7 @@ export default function Navbar( props )  {
              
             <Divider />
             <List style={styles.linkContainer} className="main-description">
-                <NavLink to="/" style={styles.navlink}>
+                <NavLink to="/marianarrt" style={styles.navlink}>
                   <ListItem button key={1}>
                     My Work
                   </ListItem>
@@ -162,7 +162,7 @@ export default function Navbar( props )  {
 
 const styles = {
     container: {
-      backgroundColor:'#FFFF',
+      backgroundColor:'#e0e0e0',
       flex:1
     },
     profileImgContainer: {

@@ -48,7 +48,7 @@ export default function App() {
     <div className={classes.root}>
       <CssBaseline />
       <Navbar/>
-      <Route exact path='/' component={ Home } />
+      <Route exact path='/marianarrt' component={ Home } />
       <Route path='/about' component={ About } />
       <Route path='/hire-me' component={ Hire } />
     </div>
