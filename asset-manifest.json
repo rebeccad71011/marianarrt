@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/marianarrat/static/css/main.da0c9509.chunk.css",
-    "main.js": "/marianarrat/static/js/main.428dc7d0.chunk.js",
-    "main.js.map": "/marianarrat/static/js/main.428dc7d0.chunk.js.map",
-    "runtime-main.js": "/marianarrat/static/js/runtime-main.966022a6.js",
-    "runtime-main.js.map": "/marianarrat/static/js/runtime-main.966022a6.js.map",
-    "static/js/2.66b73e78.chunk.js": "/marianarrat/static/js/2.66b73e78.chunk.js",
-    "static/js/2.66b73e78.chunk.js.map": "/marianarrat/static/js/2.66b73e78.chunk.js.map",
-    "static/js/3.6169bca9.chunk.js": "/marianarrat/static/js/3.6169bca9.chunk.js",
-    "static/js/3.6169bca9.chunk.js.map": "/marianarrat/static/js/3.6169bca9.chunk.js.map",
-    "index.html": "/marianarrat/index.html",
-    "static/css/main.da0c9509.chunk.css.map": "/marianarrat/static/css/main.da0c9509.chunk.css.map",
-    "static/js/2.66b73e78.chunk.js.LICENSE.txt": "/marianarrat/static/js/2.66b73e78.chunk.js.LICENSE.txt",
-    "static/media/beccas-about.4bf73794.jpeg": "/marianarrat/static/media/beccas-about.4bf73794.jpeg",
-    "static/media/smiling-face.6a72718c.png": "/marianarrat/static/media/smiling-face.6a72718c.png"
+    "main.css": "/marianarrt/static/css/main.da0c9509.chunk.css",
+    "main.js": "/marianarrt/static/js/main.428dc7d0.chunk.js",
+    "main.js.map": "/marianarrt/static/js/main.428dc7d0.chunk.js.map",
+    "runtime-main.js": "/marianarrt/static/js/runtime-main.1c19bc2b.js",
+    "runtime-main.js.map": "/marianarrt/static/js/runtime-main.1c19bc2b.js.map",
+    "static/js/2.66b73e78.chunk.js": "/marianarrt/static/js/2.66b73e78.chunk.js",
+    "static/js/2.66b73e78.chunk.js.map": "/marianarrt/static/js/2.66b73e78.chunk.js.map",
+    "static/js/3.6169bca9.chunk.js": "/marianarrt/static/js/3.6169bca9.chunk.js",
+    "static/js/3.6169bca9.chunk.js.map": "/marianarrt/static/js/3.6169bca9.chunk.js.map",
+    "index.html": "/marianarrt/index.html",
+    "static/css/main.da0c9509.chunk.css.map": "/marianarrt/static/css/main.da0c9509.chunk.css.map",
+    "static/js/2.66b73e78.chunk.js.LICENSE.txt": "/marianarrt/static/js/2.66b73e78.chunk.js.LICENSE.txt",
+    "static/media/beccas-about.4bf73794.jpeg": "/marianarrt/static/media/beccas-about.4bf73794.jpeg",
+    "static/media/smiling-face.6a72718c.png": "/marianarrt/static/media/smiling-face.6a72718c.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.966022a6.js",
+    "static/js/runtime-main.1c19bc2b.js",
     "static/js/2.66b73e78.chunk.js",
     "static/css/main.da0c9509.chunk.css",
     "static/js/main.428dc7d0.chunk.js"
