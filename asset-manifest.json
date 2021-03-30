@@ -1,22 +1,24 @@
 {
   "files": {
-    "main.css": "/marianarrat/static/css/main.9f5492c6.chunk.css",
-    "main.js": "/marianarrat/static/js/main.fbcacad5.chunk.js",
-    "main.js.map": "/marianarrat/static/js/main.fbcacad5.chunk.js.map",
-    "runtime-main.js": "/marianarrat/static/js/runtime-main.b7c4f6e7.js",
-    "runtime-main.js.map": "/marianarrat/static/js/runtime-main.b7c4f6e7.js.map",
-    "static/js/2.3cb5d4de.chunk.js": "/marianarrat/static/js/2.3cb5d4de.chunk.js",
-    "static/js/2.3cb5d4de.chunk.js.map": "/marianarrat/static/js/2.3cb5d4de.chunk.js.map",
-    "static/js/3.724199cd.chunk.js": "/marianarrat/static/js/3.724199cd.chunk.js",
-    "static/js/3.724199cd.chunk.js.map": "/marianarrat/static/js/3.724199cd.chunk.js.map",
+    "main.css": "/marianarrat/static/css/main.da0c9509.chunk.css",
+    "main.js": "/marianarrat/static/js/main.428dc7d0.chunk.js",
+    "main.js.map": "/marianarrat/static/js/main.428dc7d0.chunk.js.map",
+    "runtime-main.js": "/marianarrat/static/js/runtime-main.966022a6.js",
+    "runtime-main.js.map": "/marianarrat/static/js/runtime-main.966022a6.js.map",
+    "static/js/2.66b73e78.chunk.js": "/marianarrat/static/js/2.66b73e78.chunk.js",
+    "static/js/2.66b73e78.chunk.js.map": "/marianarrat/static/js/2.66b73e78.chunk.js.map",
+    "static/js/3.6169bca9.chunk.js": "/marianarrat/static/js/3.6169bca9.chunk.js",
+    "static/js/3.6169bca9.chunk.js.map": "/marianarrat/static/js/3.6169bca9.chunk.js.map",
     "index.html": "/marianarrat/index.html",
-    "static/css/main.9f5492c6.chunk.css.map": "/marianarrat/static/css/main.9f5492c6.chunk.css.map",
-    "static/js/2.3cb5d4de.chunk.js.LICENSE.txt": "/marianarrat/static/js/2.3cb5d4de.chunk.js.LICENSE.txt"
+    "static/css/main.da0c9509.chunk.css.map": "/marianarrat/static/css/main.da0c9509.chunk.css.map",
+    "static/js/2.66b73e78.chunk.js.LICENSE.txt": "/marianarrat/static/js/2.66b73e78.chunk.js.LICENSE.txt",
+    "static/media/beccas-about.4bf73794.jpeg": "/marianarrat/static/media/beccas-about.4bf73794.jpeg",
+    "static/media/smiling-face.6a72718c.png": "/marianarrat/static/media/smiling-face.6a72718c.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.b7c4f6e7.js",
-    "static/js/2.3cb5d4de.chunk.js",
-    "static/css/main.9f5492c6.chunk.css",
-    "static/js/main.fbcacad5.chunk.js"
+    "static/js/runtime-main.966022a6.js",
+    "static/js/2.66b73e78.chunk.js",
+    "static/css/main.da0c9509.chunk.css",
+    "static/js/main.428dc7d0.chunk.js"
   ]
 }
