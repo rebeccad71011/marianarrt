@@ -15,13 +15,14 @@ import '../assests/css/font.css'
 const useStyles = makeStyles({
   root: {
     flex:1,
-    maxWidth: 700,
     margin:"3%",
     padding:"1%",
+    maxHeight:2000,
+    maxWidth:700
     // mintWidth: '50vw',
   },
   media: {
-    maxWidth: 700,
+    maxHeight:1500,
   },
 });
 
