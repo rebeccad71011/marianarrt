@@ -33,7 +33,7 @@ export default function MediaCard() {
             I try my best to <del> divide</del> my time between my profession and my passion- two very different fields; 
             and I hope you stick around with me on my journey!<br></br><br></br>
             To get the latest updates about commission statuses, potential future exhibitions 
-            or to just have a chat, consider checking out my Instagram- @marianarrt.</small><sub><img style={styles.smiley} src={smiley}></img></sub> 
+            or to just have a chat, consider checking out my Instagram- <a href="https://www.instagram.com/marianarrt/">@marianarrt</a>.</small><sub><img style={styles.smiley} src={smiley}></img></sub> 
             
             </div>
         </div>
