@@ -17,7 +17,7 @@ import '../assests/css/style.css'
 export default function MediaCard() {
 
   return (
-    <div className="flex-container main-background">
+    <div className="flex-container">
         <div style={styles.pictureBox}>
             <img style={styles.picture} src={becca} alt="This is Becca" />
         </div>

@@ -19,13 +19,14 @@ import { makeStyles, useTheme } from "@material-ui/core/styles";
 import { NavLink } from 'react-router-dom'
 
 import becca from '../images/beccas-profile.jpg'
+import logo from '../images/bitmap.png'
 
 import '../assests/css/font.css'
-
+import '../assests/css/style.css'
 
 const { innerWidth: width, innerHeight: height } = window;
 console.log(window);
-const drawerWidth = 200;
+const drawerWidth = 250;
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -54,10 +55,6 @@ const useStyles = makeStyles((theme) => ({
   drawerPaper: {
     width: drawerWidth,
   },
-  content: {
-    flexGrow: 1,
-    padding: theme.spacing(3),
-  },
   drawerIcon: {
     position:'absolute',
     top:"1/2%",
@@ -78,14 +75,10 @@ export default function Navbar( props )  {
 
     const drawer = (
       <div style={styles.container}>
-      <div style={styles.profileImgContainer}>
-                {/* <img alt="Remy Sharp" style={styles.profileImg} src={becca} className={classes.large}/> */}
-                <div className="comfortaa-name" style={styles.name}>
-                    Marianarrt
-                </div>
-                <div className="main-description" style={styles.description}>
-                    Rebecca Dsouza 
-                </div>
+      <div style={styles.nameContainer}>
+                
+      <img alt="Marianarrt Branding" style={styles.profileImg} src={logo} className={classes.large}/>
+               
             </div>
              
             <Divider />
@@ -163,16 +156,18 @@ export default function Navbar( props )  {
 const styles = {
     container: {
       backgroundColor:'#e0e0e0',
-      flex:1
+      flex:1,
     },
-    profileImgContainer: {
-      margin: "8%",
+    nameContainer: {
+      flex:1,
+      margin: "2%",
+      flexDirection:'column'
     },
-    // profileImg: {
-    //   height: 80,
-    //   width: 80,
-    //   borderRadius: 40,
-    // },
+    profileImg: {
+      height: 60,
+      borderRadius: 40,
+      marginTop:'45'
+    },
     //default flex dir is col
     linkContainer: {
       flex:1,
@@ -182,11 +177,17 @@ const styles = {
         flex:1,
         color: 'black',
         textDecoration: 'none',
-        padding:0,
         fontSize:13
+    },
+    rowContainer: {
+      flexDirection:'row'
     },
     name :{
         fontSize: 25,
+        flex:1,
+        justifyContent:'center',
+        alignItems:'center',
+        
     },
     description: {
         fontSize: 15,

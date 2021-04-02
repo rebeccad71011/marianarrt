@@ -15,13 +15,13 @@ import '../assests/css/font.css'
 const useStyles = makeStyles({
   root: {
     flex:1,
-    maxWidth: '70vw',
+    maxWidth: 700,
     margin:"3%",
     padding:"1%",
     // mintWidth: '50vw',
   },
   media: {
-    maxWidth: '70vw',
+    maxWidth: 700,
   },
 });
 
@@ -41,7 +41,7 @@ export default function MediaCard() {
   }, []); 
 
   return (
-    <div style={styles.container} className="main-background">
+    <div style={styles.container} >
         {Paintings.map(Painting => {
             const url = "https://drive.google.com/uc?export=view&id="+FILE_ID_REGEX.exec(Painting.img_url)
               return (
